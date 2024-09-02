@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/all"
+        android:title="전체월드"/>
+    <item
+        android:id="@+id/skania"
+        android:title="스카니아"/>
+    <item
+        android:id="@+id/luna"
+        android:title="루나"/>
+    <item
+        android:id="@+id/reboot"
+        android:title="리부트"/>
+    <item
+        android:title="기타">
+        <menu>
+            <item android:id="@+id/jenis"
+                android:title="제니스" />
+            <item android:id="@+id/croa"
+                android:title="크로아" />
+        </menu>
+    </item>
+</menu>

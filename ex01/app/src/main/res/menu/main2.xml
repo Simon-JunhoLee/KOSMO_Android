@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="서브메뉴">
+        <menu>
+            <group android:checkableBehavior="all">
+                <item android:id="@+id/all" android:title="전체월드"/>
+            </group>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/skania" android:title="스카니아"/>
+                <item android:id="@+id/luna" android:title="루나"/>
+            </group>
+        </menu>
+    </item>
+</menu>

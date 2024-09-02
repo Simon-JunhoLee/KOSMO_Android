@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10sp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/photo"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:src="@drawable/profile"
+        app:civ_border_width="2sp"
+        app:civ_border_color="#673AB7"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="여기에는 이름"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_toRightOf="@id/photo"/>
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="여기에는 전화"
+        android:textSize="15sp"
+        android:layout_marginLeft="20sp"
+        android:layout_toRightOf="@id/photo"
+        android:layout_below="@id/name"/>
+    <TextView
+        android:id="@+id/juso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="여기에는 주소"
+        android:textSize="15sp"
+        android:layout_below="@id/phone"/>
+
+    <ImageView
+        android:id="@+id/btnDelete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/delete_button" />
+</RelativeLayout>
